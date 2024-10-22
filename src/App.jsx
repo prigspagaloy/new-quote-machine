@@ -25,11 +25,11 @@ function App() {
   return (
     <div className="background"  style={{ backgroundColor: getColor, transition }}>
       <div id="quote-box">
-        <div class="box-content" style={{ color: getColor, transition }}>
+        <div className="box-content" style={{ color: getColor, transition }}>
             <h2 id="text"><i class="fa fa-quote-left" style={{ fontSize: "24px" }}></i>{randomQ().quote}<i class="fa fa-quote-right" style={{ fontSize: "24px" }}></i></h2>
             <h4 id="author">- {randomQ().author}</h4>
             </div>
-            <div class="link">
+            <div className="link">
               <a id="tweet-quote" href="twitter.com/intent/tweet" ><i class="fa fa-twitter" style={{ fontSize: "24px", color: "white", backgroundColor: getColor, transition }}></i></a>
               <button id="new-quote" onClick={nextQuote} style={{ backgroundColor: getColor, transition }}>Change Quote</button>
           </div>
