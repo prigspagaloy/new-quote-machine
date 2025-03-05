@@ -22,7 +22,7 @@
 }
 
 .box-content {
-  margin: 10px;
+  padding: 10px;
 }
 
 #author {
@@ -31,7 +31,9 @@
   right: 30px;
 }
 
-
+#new-quote {
+  margin-right: 40px;
+}
 
 a, i {
   border-radius: 6px;
